@@ -1,0 +1,52 @@
+Arguments: 
+  /Users/oscar/.nvm/versions/node/v12.14.0/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js install
+
+PATH: 
+  /var/folders/__/fdkvzh3n5dvb60qyhgzxc7gc0000gn/T/yarn--1588546752609-0.8808051109599571:/Users/oscar/.config/yarn/global/node_modules/.bin:/Users/oscar/.config/yarn/link/node_modules/.bin:/Users/oscar/.nvm/versions/node/v12.14.0/libexec/lib/node_modules/npm/bin/node-gyp-bin:/Users/oscar/.nvm/versions/node/v12.14.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/oscar/.nvm/versions/node/v12.14.0/bin/node_modules/npm/bin/node-gyp-bin:/Users/oscar/perl5/bin:/usr/local/anaconda3/condabin:/usr/local/anaconda3/bin:/Users/oscar/.nvm/versions/node/v12.14.0/bin:/Users/oscar/.composer/vendor/bin:/Users/oscar/Library/Python/3.7/bin:/usr/local/opt/python/libexec/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/Users/oscar/Documents/Code/go/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.14.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, lstat '/Users/oscar/Documents/Code/react/twist/node_modules/react-scripts/node_modules/@babel/plugin-syntax-object-rest-spread'
+
+npm manifest: 
+  {
+    "name": "twist-example",
+    "homepage": "https://oscarnewman.github.io/twist",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+      "react": "link:../node_modules/react",
+      "react-dom": "link:../node_modules/react-dom",
+      "react-scripts": "link:../node_modules/react-scripts",
+      "twist": "link:.."
+    },
+    "scripts": {
+      "start": "node ../node_modules/react-scripts/bin/react-scripts.js start",
+      "build": "node ../node_modules/react-scripts/bin/react-scripts.js build",
+      "test": "node ../node_modules/react-scripts/bin/react-scripts.js test",
+      "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": [
+      ">0.2%",
+      "not dead",
+      "not ie <= 11",
+      "not op_mini all"
+    ]
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
