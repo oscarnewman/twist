@@ -7,9 +7,13 @@ export interface StyleProps {
 
 export type Size =
 	| 0
+	| 0.5
 	| 1
+	| 1.5
 	| 2
+	| 2.5
 	| 3
+	| 3.5
 	| 4
 	| 5
 	| 6
@@ -24,3 +28,6 @@ export type Size =
 	| 48
 	| 56
 	| 64
+	| 72
+	| 80
+	| 96

@@ -1,3 +1,4 @@
+/// <reference types="react" />
 export * from './layout';
 export * from './hooks';
 interface Props {

@@ -122,11 +122,11 @@ function useForm(fields) {
       onChange: function onChange(val) {
         var _extends2;
 
-        return setFormData(_extends(_extends({}, formData), {}, (_extends2 = {}, _extends2[key] = val, _extends2)));
+        return setFormData(_extends({}, formData, (_extends2 = {}, _extends2[key] = val, _extends2)));
       },
       value: formData[key]
     };
-    return _extends(_extends({}, st), {}, (_extends3 = {}, _extends3[key] = current, _extends3));
+    return _extends({}, st, (_extends3 = {}, _extends3[key] = current, _extends3));
   }, {});
   return {
     data: formData,
